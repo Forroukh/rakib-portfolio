@@ -3,7 +3,7 @@ import Typewriter from 'typewriter-effect'
 import './Home.css'
 import img from '../../background.jpg'
 import Button from 'react-bootstrap/Button';
-import Services from '../Services/Services';
+
 
 
 const Home = () => {
@@ -35,7 +35,7 @@ const Home = () => {
                     }}
                 />
             
-                 <Button variant="outline-light">
+                 <Button  variant="light">
                  <a href="../assets/Resume/ResumeOfficial.pdf" download="ResumeOfficial.pdf">
                         Download resume
                     </a>

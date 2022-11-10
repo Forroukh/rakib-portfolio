@@ -3,6 +3,7 @@ html{
 }
 
 .text {
+  padding: 1rem;
   font-size: 3rem;
   font-family: serif;
   color: rgb(223, 223, 228);
@@ -13,6 +14,11 @@ html{
 text-decoration: none;
 font-weight: 700;
 font-size: 1.5rem;
+}
+.text button a{
+  font-size: 2rem;
+  color: black;
+  font-weight: bolder;
 }
 .image{
   height: 30rem;
@@ -29,7 +35,7 @@ font-size: 1.5rem;
 @media only screen and (max-width: 600px) {
   html
   {
-   font-size: 60%;
+   font-size: 55%;
  }
  .homeContainer{
   display: flex;
@@ -39,8 +45,9 @@ margin-top: 2rem;
 margin-bottom: 2rem;
 
 }
+
 .text a{
-  font-size: 70%;
+  font-size: 65%;
   }
 }
 

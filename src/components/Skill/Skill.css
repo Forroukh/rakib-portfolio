@@ -1,0 +1,53 @@
+html {
+    font-size: 15px;
+    font-family: serif;
+}
+
+.skill{
+ 
+ margin-top: 2rem;
+ margin-bottom: 3rem;
+ color: black;
+}
+.skill h1{
+color: #454545;
+
+}
+.skill:hover {
+  background-color: #D6E4E5;
+
+}
+/* RESPONSIVENESS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html
+    {font-size: 60%;}
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    html
+     {font-size: 65%;} 
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html
+    {font-size: 75%;}
+
+  
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  html
+     {font-size: 90%;}
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .html
+    {font-size: 100%;}
+  
+  };
