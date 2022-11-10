@@ -1,0 +1,90 @@
+html {
+    font-size: 15px;
+}
+
+.services-text {
+    font-size: 4rem;
+    font-family: serif;
+    color: Black;
+    background-color: #bac0f3;
+    padding: 2rem;
+    width: 100%;
+    font-weight: 900;
+
+}
+
+.service-list {
+    font-size: 2.5rem;
+    font-family: serif;
+    color: white;
+    width: 50%;
+    background-color: #373957;
+    width: 100%;
+}
+
+.service-list div{
+padding: 3rem;
+border-bottom: 2px solid #bfdbf6;
+
+}
+
+.service-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10rem;
+}
+/* RESPONSIVENESS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html
+    {font-size: 60%;}
+    .service-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    html
+     {font-size: 65%;} 
+     .service-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html
+    {font-size: 75%;}
+    .service-container {
+        display: flex;
+        flex-direction: row;
+    }
+  
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  html
+     {font-size: 90%;}
+     .service-container {
+        display: flex;
+        flex-direction: row;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .html
+    {font-size: 100%;}
+    .service-container {
+        display: flex;
+        flex-direction: row;
+    }
+  
+  };

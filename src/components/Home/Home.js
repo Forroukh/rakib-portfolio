@@ -3,6 +3,7 @@ import Typewriter from 'typewriter-effect'
 import './Home.css'
 import img from '../../background.jpg'
 import Button from 'react-bootstrap/Button';
+import Services from '../Services/Services';
 
 
 const Home = () => {
@@ -10,10 +11,14 @@ const Home = () => {
         <div className='homeContainer'>
             <div className='text'>
 
-                <Typewriter
+              
+              <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                            .typeString("I'm Forroukh Ahmed Rakib")
+                        .typeString("WELCOME")
+                        .pause(1500)
+                        .deleteAll()
+                            .typeString("Hey! I'm Forroukh Ahmed Rakib")
                             .pause(2000)
                             .deleteAll()
                             .typeString(" Web Designer")
@@ -22,14 +27,15 @@ const Home = () => {
                             .typeString("Frontend Web Developer")
                             .pause(2000)
                             .deleteAll()
-                            .typeString("PPT Template Designer")
+                            .typeString("PPT Designer")
                             .pause(2000)
                             .deleteAll()
                             .typeString(" Forroukh Ahmed Rakib")
                             .start()
                     }}
                 />
-                 <Button variant="outline-dark">
+            
+                 <Button variant="outline-light">
                  <a href="../assets/Resume/ResumeOfficial.pdf" download="ResumeOfficial.pdf">
                         Download resume
                     </a>

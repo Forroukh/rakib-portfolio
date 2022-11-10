@@ -1,0 +1,17 @@
+.work-text h1{
+font-family: serif;
+font-size: 2rem;
+font-weight: 900;
+
+}
+.work-text p{
+font-family: serif;
+font-size: 1rem;
+
+}
+.work-text {
+font-family: serif;
+font-size: 2rem;
+padding: 2rem;
+border: 2px solid #bfdbf6;
+}
