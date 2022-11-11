@@ -1,0 +1,98 @@
+html{
+    font-size: 15px;
+}
+
+.contact-container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 2rem;
+}
+.image{
+    padding: 2rem;
+    width: 90%;
+}
+.contact-details{
+  font-family: serif;
+    background-color: #1aff7e;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+    text-align: start;
+}
+.contact-details h3{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+
+
+/* /Responsiveness */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html
+    {
+     font-size: 50%;}
+     .contact-container{
+        display: flex;
+        flex-direction: column;
+     }
+
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    html
+     {
+      font-size: 65%;}
+      .contact-container{
+        display: flex;
+        flex-direction: column;
+     }
+ 
+  
+   
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html
+    {
+     font-size: 75%;
+   }
+   .contact-container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 2rem;
+}
+  
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  html
+     {font-size: 90%;}
+     .contact-container{
+        margin-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        margin-top: 2rem;
+    }
+
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    html
+    {
+     font-size: 100%;
+   }
+   .contact-container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    margin-top: 2rem;
+}
+  
+  }

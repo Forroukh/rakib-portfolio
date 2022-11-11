@@ -1,4 +1,5 @@
 import React from 'react';
+import Contact from '../Contact/Contact';
 import Home from '../Home/Home';
 import Projects from '../Projects/Projects';
 import Services from '../Services/Services';
@@ -12,6 +13,8 @@ const Main = () => {
             <Services className='services'></Services>
             <Projects></Projects>
             <Skill></Skill>
+            <Contact></Contact>
+
         </div>
     );
 };

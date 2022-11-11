@@ -13,7 +13,9 @@ const Projects = () => {
 
     }, []);
     return (
+        
         <div className='work mt-4' id='projects'>
+            <div className='my-projects'><h1>MY PROJECTS</h1></div>
             {
                 files.map(file => <Work
                 key={file.id}
