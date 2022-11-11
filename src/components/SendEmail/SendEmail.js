@@ -9,7 +9,7 @@ const SendEmail = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_d3b9zm9', 'service_d3b9zm9', form.current, '_vWSAbeFKEWX-2v6s')
+        emailjs.sendForm('service_d3b9zm9', 'template_frkg7pj', form.current, '_vWSAbeFKEWX-2v6s')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -27,6 +27,10 @@ const SendEmail = () => {
           <Form.Control type="email" name="user_email" placeholder="Enter Your Email" />
         </Form.Group>
   
+        <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Subject</Form.Label>
+          <Form.Control type="text" textarea placeholder="Enter Your Subject" />
+        </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Message</Form.Label>
           <Form.Control type="text" textarea placeholder="Enter Your Message" />
