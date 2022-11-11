@@ -10,9 +10,9 @@ const Services = () => {
 
             </div>
             <div className='service-list'>
-                <div>Web Design</div>
-                <div>Frontend Web Development</div>
-                <div>PPT design</div>
+                <div className='services'>Web Design</div>
+                <div className='services'>Frontend Web Development</div>
+                <div className='services'>PPT design</div>
 
             </div>
         </div>

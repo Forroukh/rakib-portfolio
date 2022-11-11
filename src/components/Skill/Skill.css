@@ -4,17 +4,20 @@ html {
 }
 
 .skill{
- 
+ border: 4px solid #D6E4E5;
  margin-top: 2rem;
  margin-bottom: 3rem;
  color: black;
+ text-align: start;
+ border-radius: 10px;
+ width: 70%;
+ margin: auto;
+ padding: 1rem;
 }
-.skill h1{
-color: #454545;
 
-}
 .skill:hover {
-  background-color: #D6E4E5;
+  background-color: 	#092b49;
+  color: white;
 
 }
 /* RESPONSIVENESS */

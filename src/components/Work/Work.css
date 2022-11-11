@@ -4,14 +4,17 @@ font-size: 2rem;
 font-weight: 900;
 
 }
-.work-text p{
-font-family: serif;
-font-size: 1rem;
-
-}
 .work-text {
 font-family: serif;
 font-size: 2rem;
 padding: 2rem;
-border: 2px solid #bfdbf6;
+border: 4px solid #bfdbf6;
+border-radius: 1rem;
+width: 90%;
+margin: auto;
+margin-bottom: 1rem;
+}
+.work-text:hover{
+background-color: 	#a8a0ea;
+border-color: 	#333333;
 }

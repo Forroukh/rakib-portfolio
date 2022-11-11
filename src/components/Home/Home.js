@@ -15,10 +15,10 @@ const Home = () => {
               <Typewriter
                     onInit={(typewriter) => {
                         typewriter
-                        .typeString("WELCOME")
+                        .typeString("WELCOME !")
                         .pause(1500)
                         .deleteAll()
-                            .typeString("Hey! I'm Forroukh Ahmed Rakib")
+                            .typeString("I'm Forroukh Ahmed Rakib")
                             .pause(2000)
                             .deleteAll()
                             .typeString(" Web Designer")

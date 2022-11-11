@@ -10,7 +10,11 @@ html {
     padding: 2rem;
     width: 100%;
     font-weight: 900;
-
+    border-radius: 1rem;   
+}
+.services-text:hover{
+    background-color: 	#a8a0ea;
+    border-color: 	#333333;
 }
 
 .service-list {
@@ -20,6 +24,7 @@ html {
     width: 50%;
     background-color: #373957;
     width: 100%;
+    border-radius: 1rem;
 }
 
 .service-list div{
@@ -27,11 +32,18 @@ padding: 3rem;
 border-bottom: 2px solid #bfdbf6;
 
 }
+.services:hover{
+    background-color: 	#a8a0ea;
+    border-color: 	#333333;
+}
 
 .service-container {
     display: flex;
     flex-direction: row;
     margin-top: 10rem;
+    padding: 1rem;
+
+    
 }
 /* RESPONSIVENESS */
 /* Extra small devices (phones, 600px and down) */

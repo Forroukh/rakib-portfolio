@@ -8,7 +8,9 @@ html{
   font-family: serif;
   color: rgb(223, 223, 228);
   background-color: rgb(78, 75, 75);
-  width: 100%;
+  width: 90%;
+  margin-left: 2rem;
+  border-radius: 1rem;
 }
 .text a{
 text-decoration: none;
@@ -23,6 +25,7 @@ font-size: 1.5rem;
 .image{
   height: 30rem;
   width: 100%;
+  
 }
 
 .homeContainer{
@@ -35,7 +38,7 @@ font-size: 1.5rem;
 @media only screen and (max-width: 600px) {
   html
   {
-   font-size: 55%;
+   font-size: 50%;
  }
  .homeContainer{
   display: flex;
@@ -47,7 +50,7 @@ margin-bottom: 2rem;
 }
 
 .text a{
-  font-size: 65%;
+  font-size: 60%;
   }
 }
 

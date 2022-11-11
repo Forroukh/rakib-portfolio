@@ -5,7 +5,7 @@ import './Work.css'
 
 
 const Work = (props) => {
-    const { title, image, description } = props.file;
+    const { title, description } = props.file;
     return (
         <div className='work-text'>
             <h1>{title}</h1>
