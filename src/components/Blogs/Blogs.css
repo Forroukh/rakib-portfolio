@@ -1,0 +1,72 @@
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+   align-items: center;
+   margin-left: 1rem;
+   
+ 
+}
+html{
+    font-size: 15px;
+}
+/* RESPONSIVENESS */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html
+    {font-size: 60%;}
+    .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+}
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    html
+     {font-size: 65%;} 
+     .blogs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    html
+    {font-size: 75%;}
+    .blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+       align-items: center;
+       margin-left: 1rem;
+    }
+  
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+  html
+     {font-size: 90%;}
+     .blogs{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+       align-items: center;
+       margin-left: 1rem;
+    }
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .html
+    {font-size: 100%;}
+    .blogs {
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+       align-items: center;
+       margin-left: 1rem;
+    }
+  
+  };
