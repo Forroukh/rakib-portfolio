@@ -15,12 +15,19 @@ html{
 .contact-details{
   font-family: serif;
     background-color: #1aff7e;
+    border: 4px solid #1aff7e;
+    border-radius: 1rem;
     width: 90%;
     margin: auto;
     padding: 2rem;
     text-align: start;
 }
 .contact-details h3{
+    text-align: center;
+    font-size: 2rem;
+    
+}
+.contact-details  p{
     text-align: center;
     font-size: 2rem;
     

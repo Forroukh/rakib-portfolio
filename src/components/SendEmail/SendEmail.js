@@ -4,6 +4,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import './SendEmail.css';
 
 
 
@@ -26,21 +27,21 @@ const SendEmail = () => {
 
   return (
 
-    <Form ref={form} onSubmit={sendEmail}>
+    <Form  ref={form} onSubmit={sendEmail}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Name</Form.Label>
-        <Form.Control type="text" name="user_name" placeholder="Enter Your Name" />
+        <Form.Control required type="text" name="user_name" placeholder="Enter Your Name" />
         <Form.Label>Email</Form.Label>
-        <Form.Control type="email" name="user_email" placeholder="Enter Your Email" />
+        <Form.Control required  type="email" name="user_email" placeholder="Enter Your Email" />
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Subject</Form.Label>
-        <Form.Control type="text" name="user_subject" textarea placeholder="Enter Your Subject" />
+        <Form.Control required  type="text" name="user_subject" textarea placeholder="Enter Your Subject" />
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Message</Form.Label>
-        <Form.Control type="text" name="user_message" textarea placeholder="Enter Your Message" />
+        <Form.Control required  type="text" name="user_message" textarea placeholder="Enter Your Message" />
       </Form.Group>
 
       <Button variant="primary" type="submit">

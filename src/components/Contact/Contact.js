@@ -12,7 +12,7 @@ const Contact = () => {
             </div>
             <div className='contact-details'>
                 <h3>I'd love to hear from you</h3>
-                <p>Got a project you would like me to work on? <br/> Or how about just a friendly chat</p>
+                <p>Got a project you would like me to work on? <br/> Or how about just a friendly chat ?</p>
                <SendEmail></SendEmail>
 
             </div>
